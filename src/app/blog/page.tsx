@@ -23,7 +23,7 @@ export default function Blog() {
             />
           </div>
           <div className="p-8 md:w-1/2">
-            <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Featured Post</div>
+            <div className="uppercase tracking-wide text-sm text-blue-500 font-bold">Featured Post</div>
             <Link href={`/post/${featuredPost.id}`} className="block mt-1 text-2xl leading-tight font-bold text-blue-900">
               {featuredPost.title}
             </Link>
