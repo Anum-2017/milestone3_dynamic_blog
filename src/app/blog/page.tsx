@@ -9,7 +9,7 @@ export default function Blog() {
 
   return (
     <div className="space-y-12">
-      <h1 className="text-5xl font-bold mb-8 text-center font-serif text-blue-900">Explore Our Latest Blogs</h1>
+      <h1 className="text-5xl font-bold mb-8 text-center font-serif text-blue-900">Explore Our Blogs</h1>
       {/* Featured Post */}
      <section className="bg-white rounded-lg shadow-lg overflow-hidden">
         <div className="md:flex">
@@ -38,7 +38,7 @@ export default function Blog() {
 
       {/* Other Posts */}
       <section>
-        <h2 className="text-4xl font-bold mb-8 text-center font-serif text-blue-900">Latest Posts</h2>
+       {/* <h2 className="text-4xl font-bold mb-8 text-center font-serif text-blue-900">Latest Blogs</h2> */}
         <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {posts.slice(1).map((post) => (
             <article key={post.id} className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105">
